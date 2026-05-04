@@ -8,8 +8,8 @@
 	},
 	"routes": [
 		{
-			"pattern": "tianpeng.dev",
-			"custom_domain": true
+			"pattern": "tianpeng.dev/*",
+			"zone_name": "tianpeng.dev"
 		}
 	],
 	"observability": {
