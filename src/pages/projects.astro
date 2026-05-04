@@ -1,0 +1,39 @@
+---
+import { Icon } from "astro-icon/components";
+import { projects } from "@/data/projects";
+import PageLayout from "@/layouts/Base.astro";
+
+const meta = {
+	description: "Projects, tools, and experiments by Tianpeng.",
+	title: "Projects",
+};
+---
+
+<PageLayout meta={meta}>
+	<h1 class="title mb-6">Projects</h1>
+	<div class="my-4 grid justify-center">
+		<dl class="space-y-4">
+			{
+				projects.map(({ description, href, icon, image, title }) => (
+					<div class="flex flex-col gap-2 md:flex-row">
+						<dt>
+							{image && <img src={image} alt={title} width="64" height="64" />}
+							{icon && (
+								<Icon aria-hidden="true" focusable="false" height={64} name={icon} width={64} />
+							)}
+						</dt>
+						<dd>
+							<span class="flex">
+								<a class="cactus-link" href={href} rel="noopener noreferrer" target="_blank">
+									{title}
+								</a>
+								:
+							</span>
+							{description}
+						</dd>
+					</div>
+				))
+			}
+		</dl>
+	</div>
+</PageLayout>

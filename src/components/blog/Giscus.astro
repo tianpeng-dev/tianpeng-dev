@@ -1,0 +1,31 @@
+---
+import { siteConfig } from "@/site.config";
+
+const giscus = siteConfig.giscus;
+const isConfigured =
+	giscus?.enabled && giscus.repo && giscus.repoId && giscus.category && giscus.categoryId;
+---
+
+{
+	isConfigured && (
+		<section class="mt-16">
+			<script
+				async
+				crossorigin="anonymous"
+				data-category={giscus.category}
+				data-category-id={giscus.categoryId}
+				data-emit-metadata="0"
+				data-input-position="bottom"
+				data-lang={giscus.lang}
+				data-mapping={giscus.mapping}
+				data-reactions-enabled="1"
+				data-repo={giscus.repo}
+				data-repo-id={giscus.repoId}
+				data-strict="0"
+				data-theme={giscus.theme}
+				is:inline
+				src="https://giscus.app/client.js"
+			/>
+		</section>
+	)
+}
