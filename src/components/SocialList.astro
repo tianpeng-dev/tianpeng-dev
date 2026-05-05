@@ -1,17 +1,19 @@
 ---
 import { Icon } from "astro-icon/components";
 
-/** 
-	Uses https://www.astroicon.dev/getting-started/
-	Find icons via guide: https://www.astroicon.dev/guides/customization/#open-source-icon-sets
-	Only installed pack is: @iconify-json/mdi
-*/
 const socialLinks: {
 	friendlyName: string;
 	isWebmention?: boolean;
 	link: string;
 	name: string;
-}[] = [];
+}[] = [
+	{
+		friendlyName: "Github",
+		isWebmention: true,
+		link: "https://github.com/tianpeng-dev",
+		name: "mdi:github",
+	},
+];
 ---
 
 {
@@ -22,12 +24,12 @@ const socialLinks: {
 				{socialLinks.map(({ friendlyName, isWebmention, link, name }) => (
 					<li class="flex">
 						<a
-							class="hover:text-link inline-block"
+							class="inline-block p-1 sm:hover:text-link"
 							href={link}
-							rel={`noreferrer ${isWebmention ? "me authn" : ""}`}
+							rel={`noopener noreferrer ${isWebmention ? "me authn" : ""}`}
 							target="_blank"
 						>
-							<Icon aria-hidden="true" class="h-8 w-8" focusable="false" name={name} />
+							<Icon aria-hidden="true" class="h-6 w-6" focusable="false" name={name} />
 							<span class="sr-only">{friendlyName}</span>
 						</a>
 					</li>
