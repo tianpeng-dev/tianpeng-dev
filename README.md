@@ -1,4 +1,14 @@
-# tianpeng.dev
+<div align="center">
+  <h1>PENG</h1>
+  <p><strong>AI Coding</strong> · <strong>Product Engineering</strong> · <strong>Personal Tools</strong></p>
+  <p>
+    <a href="https://tianpeng.dev">tianpeng.dev</a>
+    ·
+    <a href="https://nowcoding.vercel.app">NowCoding</a>
+    ·
+    <a href="https://github.com/tianpeng-dev">GitHub</a>
+  </p>
+</div>
 
 <div align="center">
   <a href="https://nowcoding.vercel.app">
@@ -12,64 +22,49 @@
 
   ![Today](https://nowcoding.vercel.app/badge/today.svg)
   ![Week](https://nowcoding.vercel.app/badge/week.svg)
+  ![Total](https://nowcoding.vercel.app/badge/total.svg)
+  ![Model](https://nowcoding.vercel.app/badge/model.svg)
   ![Streak](https://nowcoding.vercel.app/badge/streak.svg)
   ![Live](https://nowcoding.vercel.app/badge/live.svg)
 </div>
 
+<table align="center">
+<tr>
+<td valign="top" width="33%">
 
-Personal blog built from [Astro Cactus](https://github.com/chrismwilliams/astro-theme-cactus) and deployed to Cloudflare Workers Static Assets.
+### Projects
 
-## Structure
+- [tianpeng.dev](https://github.com/tianpeng-dev/tianpeng-dev) Personal blog and project index built with Astro and Cloudflare Workers.
+- [TremorGuard](https://github.com/tianpeng-dev/TremorGuard) Python project for tremor monitoring and analysis experiments.
+- [NowCoding](https://nowcoding.vercel.app) Public coding activity profile powered by local AI coding usage sync.
+- [Sink](https://github.com/tianpeng-dev/Sink) Cloudflare-based link shortener and analytics exploration.
 
-- `Home`
-- `About`
-- `Blog`
-- `Project`
+[More projects](https://github.com/tianpeng-dev?tab=repositories)
 
-Projects are managed from one data source: `src/data/projects.ts`.
+</td>
+<td valign="top" width="33%">
 
-## Commands
+### Now Building
 
-```bash
-npm install
-npm run dev
-npm run check
-npm run build
-npm run worker:dev
-npm run deploy
-```
+- AI-assisted development workflows.
+- Public developer telemetry and README cards.
+- Personal blog, project index, and Cloudflare-native deployment.
+- Practical tools that connect local work with public profiles.
 
-`npm run build` runs `astro check`, `astro build`, and `pagefind --site dist` so search indexes are always included in the deployment output.
+[Visit my site](https://tianpeng.dev)
 
-## Cloudflare Workers
+</td>
+<td valign="top" width="33%">
 
-This project deploys as a static Astro site through Workers Static Assets. It does not use Cloudflare Pages, GitHub Pages, or the Astro Cloudflare adapter for the first release.
+### Stack
 
-Relevant config:
+- Frontend: Astro, Vue, TypeScript.
+- Backend: Python, JavaScript, Cloudflare Workers.
+- Data and infra: Vercel, Neon, PostgreSQL, D1, R2.
+- Focus: AI coding, product prototypes, automation, observability.
 
-- `wrangler.jsonc`
-- `assets.directory: "./dist"`
-- `assets.not_found_handling: "404-page"`
+[View NowCoding](https://nowcoding.vercel.app)
 
-Cloudflare setup:
-
-1. Push this repo to GitHub.
-2. In Cloudflare, create a Worker from the GitHub repository.
-3. Use `npm run build` as the build command.
-4. Use `npx wrangler deploy` as the deploy command.
-5. Bind `tianpeng.dev` as the Worker custom domain.
-6. Optionally bind `www.tianpeng.dev` and redirect one hostname to the other.
-
-## Giscus
-
-Giscus is wired into the blog post layout but disabled by default. After the GitHub repo exists:
-
-1. Make the repo public.
-2. Enable GitHub Discussions.
-3. Install the Giscus GitHub app.
-4. Fill `siteConfig.giscus` in `src/site.config.ts`.
-5. Set `enabled: true`.
-
-## Reading Counter
-
-Reading views are intentionally deferred until after the first static deploy. The planned next step is to add a Worker script entry such as `src/worker.ts`, add a D1 binding in `wrangler.jsonc`, and implement `/api/views` while continuing to serve static assets from `dist`.
+</td>
+</tr>
+</table>
