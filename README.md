@@ -1,5 +1,22 @@
 # tianpeng.dev
 
+<div align="center">
+  <a href="https://nowcoding.vercel.app">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://nowcoding.vercel.app/card.svg?theme=dark" />
+      <img src="https://nowcoding.vercel.app/card.svg" alt="NowCoding activity for tianpeng-dev" />
+    </picture>
+  </a>
+
+  <br />
+
+  ![Today](https://nowcoding.vercel.app/badge/today.svg)
+  ![Week](https://nowcoding.vercel.app/badge/week.svg)
+  ![Streak](https://nowcoding.vercel.app/badge/streak.svg)
+  ![Live](https://nowcoding.vercel.app/badge/live.svg)
+</div>
+
+
 Personal blog built from [Astro Cactus](https://github.com/chrismwilliams/astro-theme-cactus) and deployed to Cloudflare Workers Static Assets.
 
 ## Structure
