@@ -13,8 +13,8 @@
 <div align="center">
   <a href="https://nowcoding.vercel.app">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://nowcoding.vercel.app/card.svg?theme=dark" />
-      <img src="https://nowcoding.vercel.app/card.svg" alt="NowCoding activity for tianpeng-dev" />
+      <source media="(prefers-color-scheme: dark)" srcset="https://nowcoding.vercel.app/card.svg?theme=dark&v=20260514-svg-ui" />
+      <img src="https://nowcoding.vercel.app/card.svg?v=20260514-svg-ui" alt="NowCoding activity for tianpeng-dev" />
     </picture>
   </a>
 </div>
