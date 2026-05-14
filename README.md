@@ -17,15 +17,6 @@
       <img src="https://nowcoding.vercel.app/card.svg" alt="NowCoding activity for tianpeng-dev" />
     </picture>
   </a>
-
-  <br />
-
-  ![Today](https://nowcoding.vercel.app/badge/today.svg)
-  ![Week](https://nowcoding.vercel.app/badge/week.svg)
-  ![Total](https://nowcoding.vercel.app/badge/total.svg)
-  ![Model](https://nowcoding.vercel.app/badge/model.svg)
-  ![Streak](https://nowcoding.vercel.app/badge/streak.svg)
-  ![Live](https://nowcoding.vercel.app/badge/live.svg)
 </div>
 
 <table align="center">
