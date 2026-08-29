@@ -4,17 +4,17 @@
   <p>
     <a href="https://tianpeng.dev">tianpeng.dev</a>
     ·
-    <a href="https://nowcoding.vercel.app">NowCoding</a>
+    <a href="https://nowcoding.cc/u/tianpeng-dev">NowCoding</a>
     ·
     <a href="https://github.com/tianpeng-dev">GitHub</a>
   </p>
 </div>
 
 <div align="center">
-  <a href="https://nowcoding.vercel.app">
+  <a href="https://nowcoding.cc/u/tianpeng-dev">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://nowcoding.vercel.app/card.svg?theme=dark&v=20260514-svg-ui" />
-      <img src="https://nowcoding.vercel.app/card.svg?v=20260514-svg-ui" alt="NowCoding activity for tianpeng-dev" />
+      <source media="(prefers-color-scheme: dark)" srcset="https://nowcoding.cc/u/tianpeng-dev/card.svg?theme=dark" />
+      <img src="https://nowcoding.cc/u/tianpeng-dev/card.svg" alt="NowCoding activity for tianpeng-dev" />
     </picture>
   </a>
 </div>
@@ -27,7 +27,7 @@
 
 - [tianpeng.dev](https://github.com/tianpeng-dev/tianpeng-dev) Personal blog and project index built with Astro and Cloudflare Workers.
 - [TremorGuard](https://github.com/tianpeng-dev/TremorGuard) Python project for tremor monitoring and analysis experiments.
-- [NowCoding](https://nowcoding.vercel.app) Public coding activity profile powered by local AI coding usage sync.
+- [NowCoding](https://nowcoding.cc/u/tianpeng-dev) Public coding activity profile powered by local AI coding usage sync.
 - [Sink](https://github.com/tianpeng-dev/Sink) Cloudflare-based link shortener and analytics exploration.
 
 [More projects](https://github.com/tianpeng-dev?tab=repositories)
@@ -54,7 +54,7 @@
 - Data and infra: Vercel, Neon, PostgreSQL, D1, R2.
 - Focus: AI coding, product prototypes, automation, observability.
 
-[View NowCoding](https://nowcoding.vercel.app)
+[View NowCoding](https://nowcoding.cc/u/tianpeng-dev)
 
 </td>
 </tr>
