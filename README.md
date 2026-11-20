@@ -11,11 +11,8 @@
 </div>
 
 <div align="center">
-  <a href="https://nowcoding.cc/u/tianpeng-dev">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://nowcoding.cc/u/tianpeng-dev/card.svg?theme=dark" />
-      <img src="https://nowcoding.cc/u/tianpeng-dev/card.svg" alt="NowCoding activity for tianpeng-dev" />
-    </picture>
+  <a href="https://github.com/tianpeng-dev/nowcoding">
+    <img src="https://nowcoding.cc/u/tianpeng-dev/card.svg?v=20261120" alt="NowCoding activity for tianpeng-dev" width="800" />
   </a>
 </div>
 
